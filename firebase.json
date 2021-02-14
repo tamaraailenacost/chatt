@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "Chatty",
+      "public": "dist/Chatty",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

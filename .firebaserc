@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "chatty-98b61": {
+      "hosting": {
+        "Chatty": [
+          "chatty-98b61"
+        ]
+      }
+    }
+  }
+}
